@@ -6,11 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5fbbe4f-0df0-4ecf-bd78-c22163c7bd53" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Exercitando POO/Exercitando POO.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CustoHotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Investimento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KcinAula.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CustoHotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CustoHotel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2g6XLF9SkL6k7PBJwwHv5BJ153e" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,12 +35,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CustoHotel.executor": "Run",
     "Application.Investimento.executor": "Run",
     "Application.KcinAula.executor": "Run",
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Rômulo/git/kcin",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Investimento">
+  <component name="RunManager" selected="Application.CustoHotel">
     <configuration name="CustoHotel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CustoHotel" />
       <module name="kcin" />
@@ -67,10 +67,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="kcin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Investimento" />
         <item itemvalue="Application.CustoHotel" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Investimento" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +98,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715018945514</updated>
-      <workItem from="1715018946550" duration="5997000" />
+      <workItem from="1715018946550" duration="6455000" />
+      <workItem from="1715050841928" duration="40000" />
+      <workItem from="1715128130189" duration="6360000" />
     </task>
     <servers />
   </component>

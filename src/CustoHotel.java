@@ -1,18 +1,13 @@
 import java.util.Scanner;
 
 public class CustoHotel {
-    //padrao de nomenclatura de classes e variáveis JAVA!
-    //SEMPRE utilizar o padrao de nomenclatura cammelcase
-    //o que é o cammelcase? todaVezQueTrocamosAPalavraUtilizamosLetraMaiuscula
-    // para nomenclatura de classes SEMPRE utilizar a primeira letra Maiuscula
-    //para nomenclatura de variaveis SEMPRE utilizar a primeira letra minuscula
-    // NomeDeClasse -- nomeDeVariavel
+
 
     public static void main(String[] args) {
 
         String nome;
         double valorDaDiaria = 80.00;
-        double contaCliente;
+        double contaCliente = 0;
         int quantidadeDiarias;
 
         Scanner ler = new Scanner(System.in);
@@ -24,12 +19,14 @@ public class CustoHotel {
 
         ler.close();
 
-        if (quantidadeDiarias < 15) {
+        if (quantidadeDiarias > 15) {
             contaCliente = ((quantidadeDiarias * valorDaDiaria) + (5.50 * quantidadeDiarias));
         } else if (quantidadeDiarias == 15) {
             contaCliente = ((6 * quantidadeDiarias) + (quantidadeDiarias * valorDaDiaria));
-        } else {
+        } else if (quantidadeDiarias < 15 && quantidadeDiarias >= 0) {
             contaCliente = ((8 * quantidadeDiarias) + (quantidadeDiarias * valorDaDiaria));
+        }else {
+            System.out.println("quantidade de diárias, não válida");
         }
 
         System.out.println("Nome do cliente: " + nome);
